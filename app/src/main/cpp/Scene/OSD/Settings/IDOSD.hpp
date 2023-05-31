@@ -55,6 +55,7 @@ public:
     static constexpr const char* TE1_LON="TE1 LON (Longitude)";
     static constexpr const char* TE1_ALTITUDE_GPS="TE1 ALTITUDE GPS";
     static constexpr const char* TE1_ALTITUDE_BARO="TE1 ALTITUDE BARO";
+    static constexpr const char* TE1_DISTANCE="TE1 DISTANCE";
     static constexpr const char* TE1_N_SATS="TE1 N SATS (Visible for uav gps)";
     static constexpr const char* TE1_XXX="TE1 XXX (for future use)";
     static constexpr const char* TE2_SCALE="TE2 scale";

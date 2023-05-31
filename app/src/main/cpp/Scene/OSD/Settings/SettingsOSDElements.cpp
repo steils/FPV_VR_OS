@@ -93,6 +93,9 @@ SettingsOSDElements::SettingsOSDElements(JNIEnv *env, jobject androidContext) {
     if(prefOSDElements.getBoolean(IDOSD::TE1_ALTITUDE_BARO)){
         oTextElement1.enableXX.push_back( TelemetryReceiver::ALTITUDE_BARO);
     }
+    if(prefOSDElements.getBoolean(IDOSD::TE1_DISTANCE)){
+        oTextElement1.enableXX.push_back(TelemetryReceiver::DISTANCE);
+    }
     if(prefOSDElements.getBoolean(IDOSD::TE1_N_SATS)){
         oTextElement1.enableXX.push_back(TelemetryReceiver::SATS_IN_USE);
     }

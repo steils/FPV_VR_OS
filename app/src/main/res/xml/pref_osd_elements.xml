@@ -102,6 +102,10 @@
                     android:title="@string/TE1_ALTITUDE_BARO"
                     android:defaultValue="true" />
                 <CheckBoxPreference
+                    android:key="@string/TE1_DISTANCE"
+                    android:title="@string/TE1_DISTANCE"
+                    android:defaultValue="true" />
+                <CheckBoxPreference
                     android:key="@string/TE1_N_SATS"
                     android:title="@string/TE1_N_SATS"
                     android:defaultValue="false" />

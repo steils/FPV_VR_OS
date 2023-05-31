@@ -70,6 +70,7 @@
     <string name="TE1_LON">TE1 LON (Longitude)</string>
     <string name="TE1_ALTITUDE_GPS">TE1 ALTITUDE GPS</string>
     <string name="TE1_ALTITUDE_BARO">TE1 ALTITUDE BARO</string>
+    <string name="TE1_DISTANCE">TE1 DISTANCE</string>
     <string name="TE1_N_SATS">TE1 N SATS (Visible for uav gps)</string>
     <string name="TE1_XXX">TE1 XXX (for future use)</string>
     //Text elements 2
